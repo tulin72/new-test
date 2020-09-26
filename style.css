@@ -1,0 +1,384 @@
+*{
+    padding : 0;
+    margin : 0;
+}
+
+.clear::after{
+    content: "" ;
+    clear: both;
+		display: block;
+}
+.right{
+	float: right;
+	}
+	.left{
+		float: left;
+		}
+		img{
+			max-width: 100%;
+			}
+			.container{
+				width: 1224px;
+				}
+				.center{
+				text-align: center;
+				}
+				.dan{
+				text-align: center;
+				}
+				.bam{
+				text-align: center;
+				}
+				/*  css start   */
+				.header{
+					background-color: #ffff;
+					margin-bottom: 30px;
+					}
+					.logo{
+						margin-top: 30px;
+						margin-bottom: 50px;
+						}
+						.logo img{
+							width: 350px;
+							}
+							.header-manu{}
+							.header-manu ul{
+							list-style: none;
+							}
+							.header-manu ul li{
+								display: inline-block;
+							}
+							.header-manu ul li a{
+								text-decoration: none;
+								padding: 10px 25px;
+								color: black;
+								line-height: 4.5em;
+								font-size: 20px;
+								transition:. 5s;
+								}
+								.header-manu ul li a:hover{
+									color: #FFBF00;
+									}
+									.header-title p{
+									font-size: 17px;
+									}
+									.btn{
+										padding: 10px 20px;
+										background-color: #FFBF00;
+										color: black;
+										border-radius: 3%;
+										text-decoration: none;
+										margin-right: 30px;
+										text-align: center;
+										margin-left: 28px;
+										font-size: 20px;
+										border: 2px solid #ddd;
+										}
+										.bg{
+											background-color: #fff;
+											transition: .4s;
+											}
+											.bg:hover{
+												background-color: #FFBF00;
+												}
+												/* end header  */
+												
+	/*  banner css    */
+	.banner{
+	
+		background-image:  url(././Fb.jpg);
+	background-color: gray;
+	display: inline-block;
+	padding: 100px 0;
+	color: #ffff;
+		}
+		.banner h1{
+		 margin-bottom: 15px;
+		font-size: 40px;
+		}
+		.banner p{
+		font-size: 28px;
+		margin-bottom: 30px;
+		}
+		.form{
+		margin-top: 45px;
+		
+		}
+		.text{
+			padding: 10px 100px;
+			background-color: #ffff;
+			color: black;
+			border: 2px solid #dddd;
+			border-radius: 3%;
+			}
+			.drop{
+				padding: 10px 20px;
+				background-color: #FFBF00;
+				color: black;
+				border-radius: 2%;
+				border: 1px solid #FFBF00;
+				margin-left: -6px;
+				}
+				.font{
+					color: #ffff;
+					}
+	/* end banner */
+	.content{
+	background-color: #2F4F4F;
+	display: inline-block;
+	color: #fff;
+	padding-bottom: 70px;
+	}
+	.boi{
+	width: 45%;
+	margin-left: 1%;
+	margin-right: 1%;
+	text-align: center; 
+	}
+	.book{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	}
+	.book h1{
+	font-size: 100px;
+	margin-bottom: 100px;
+	padding-bottom: 25px;
+	color: black;
+	}
+	.boi 	p{
+	font-size: 20px;
+	margin-bottom: 60px;
+	line-height: 1.4em;
+
+	}	
+	.boi h1{
+	margin: 20px 0;
+	}
+	.color{
+	background-color: black;
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 10px 30px;
+	}		
+	/* 2nd content css */
+
+	.top{
+	margin-top: 60px;
+	margin-bottom: 30px;
+	color: black;
+	}		
+	.top h1{
+		font-size: 90px;
+		}
+		/* end css top */
+		
+		.services{
+
+		}
+		.service{
+			margin-bottom: 15px;
+			background-color: #F0F8FF;
+			display: inline-block;
+		}
+		.post{
+			
+			margin-bottom: 45px;
+			}
+			.post h1{
+				padding-top: 35px;
+			font-size: 50px;
+			margin-bottom: 20px;
+			}
+			.post span{
+			font-size:25px;
+			}
+			.help{
+			margin: 35px 0;
+			}
+			.support{
+				width: 23%;
+				text-align: center;
+				margin-left: 1%;
+				margin-right: 1%;
+				
+				}
+		.support h1{
+		margin-bottom: 20px;
+		color: #FFBF00;
+		}
+		.support p{
+			font-size: 15px;
+			line-height: 1.4em;
+			margin-bottom: 45px;
+		}
+		/*end service  */
+		/* client css */
+		.client{
+		margin-top: 50px;
+		}
+		
+		.clients{
+		width: 26%;
+		margin-left: 23px;
+		}
+		.clients h1{
+			font-size: 45px;
+			margin-bottom: 15px;
+		}
+		.clients p{
+		 font-size: 18px;
+		color: #767676;
+		line-height: 1.4em;
+		}
+		.clien{
+		width: 64%;
+	
+		}
+		.buyr{
+		margin-bottom: 30px;
+		}
+		.buyr img{
+			width: 160px;
+			margin: 0 15px;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+			box-sizing: border-box;
+			box-shadow: 6px 5px 9px #ddd;
+		
+		}		
+		/* member css */
+		.member{
+		margin-top: 50px;
+		margin-bottom: 60px;
+		}
+		.status{
+		border: 2px solid #ddd;
+		box-sizing: border-box;
+		padding-top: 30px;
+		padding-bottom: 35px;
+		line-height: 1.5em;
+		padding-left: 5px;
+		box-shadow: 5px 7px 8px #ddd;
+		background-color: #F2F3F4;
+		
+	
+		}
+		.status p{
+		margin-left: 25px;
+		font-size: 18px;
+		color: #767676;
+		margin-bottom: 7px;
+		}
+		.status span{
+		margin-left: 20px;
+		margin-top: 10px;
+		font-size: 21px;
+		}
+		.face{
+		
+		margin: auto;
+		height: 100;
+		text-align: right;
+		}
+		.face img{
+		border-radius: 50%;
+		margin-bottom: 25px;
+		margin-top: -55px;
+		border: 2px solid #ddd;
+		box-shadow: 3px 4px 5px #ddd;
+		width: 120px;
+		margin-right: 50px;
+		}
+		.members{
+			width: 31%;
+			margin-right: 1%;
+			margin-left: 1%;
+		}
+		
+		/* plans css  */
+		.plan{
+		background-color:  #2F4F4F;
+		display: inline-block;
+		padding-top: 20px;
+		padding-bottom: 80px;
+		}
+		.plans h1{
+		color: #ffff;
+		font-size: 45px;
+		margin-top: 45px;
+		margin-bottom: 20px;
+		}
+		.plans span{
+			color: #767676;
+			font-size: 20px;
+		
+		}
+		.plans{
+		width: 55%;
+		margin-left: 2%;
+		margin-right: 2%;
+		}
+		.planss{
+		width: 35%;
+		line-height: 150px;
+		}
+		
+		.location{
+			background-color: #848482;
+			display: inline-block;
+			padding-top: 105px;
+			padding-bottom: 75px;
+		}
+		.map{
+	width: 60%;
+	margin-left: 4%;
+		}
+		.map img{
+			width: 800px;
+		}
+		.list{}
+		.list ul{
+		list-style: none;
+		}
+	.list ul li{}
+		.list ul a{
+		text-decoration: none;
+		font-size: 22px;
+		color: #fff;
+	 line-height: 2em;
+		}
+		.list ul li a:hover{
+		color: #FFBF00;
+		}
+		.maps h1{
+			margin-top: 35px;
+			margin-bottom: 30px;
+		color: #fff;
+		}
+		.me span{
+			color: #fff;
+		}
+		.maps{
+		margin-right: 4%;
+		text-align: right;
+		width: 31%;
+		}
+		.location span{
+		color: gray;
+		}		
+			.footer{
+			background-color: #848482;
+			display: inline-block;
+			}	
+				.footer img{
+				width: 80px;
+				margin-bottom: 25px;
+				margin-top: 30px;
+				}
+				.footer p{
+				font-size: 25px;
+				color: #ffff;
+				margin-bottom: 40px;
+				}
+				/* end css footer */
+				
